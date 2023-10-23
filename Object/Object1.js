@@ -9,7 +9,8 @@ let obj2 = {
     4:"d"
 }
 
-let obj3 = Object.assign({},obj1,obj2)   //Used to merge two object
-console.log(obj1.hasOwnProperty(5))     //To check their is a key present in the object
+let obj3 = Object.assign({},obj1,obj2)  // Used to merge two object
+console.log(obj1.hasOwnProperty(5))     // To check their is a key present in the object
+console.log(Object.keys(obj1).length)   // Will Retuen the number of keys in object
 
 console.log(obj3)
