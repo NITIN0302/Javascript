@@ -22,3 +22,5 @@ coding.forEach((ele)=>{
 coding.forEach(function(ele){
     console.log(ele+10);
 })
+
+const value = null ?? null ?? null ?? 20;  //Nullish Coalesing operator
