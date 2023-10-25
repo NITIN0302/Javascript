@@ -24,7 +24,18 @@ a.textContent
 // In this case output will be 
 // DOM learning with Chai aur code Hello World
 
-document.querySelector('') //for accesing using name
-document.querySelector('#ID') //for accessing using id
-document.querySelector('.class') // for accessing using class
-document.querySelectorAll('') // for accessing all the element of same name
+// document.querySelector('') //for accesing using name
+// document.querySelector('#ID') //for accessing using id
+// document.querySelector('.class') // for accessing using class
+// document.querySelectorAll('') // for accessing all the element of same name
+
+
+
+
+//selection of all the child element using querySelector
+
+
+let b = document.querySelectorAll('h1');
+b.forEach((ele) =>{
+    ele.style.backgroundColor = "red";
+})
