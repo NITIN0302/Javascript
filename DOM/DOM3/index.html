@@ -1,0 +1,26 @@
+ <!-- Adding and removing element using DOM -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: black;color:white">
+    <div class="main">
+
+    </div>
+</body>
+<script>
+    let a = document.querySelector('.main')
+    console.log(a.className)
+    a.setAttribute('class','main hidden')
+    console.log(a.className)
+    a.innerText = "Chai aur code";
+    const newtext = document.createTextNode("Chai aur code");
+    a.appendChild(newtext);
+    console.log(a.firstElementChild)
+    document.body.appendChild(newtext);
+</script>
+</html>

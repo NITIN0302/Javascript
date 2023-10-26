@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:black; color:white;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    const appendChild = (language) =>{
+        let a = document.createElement('li');
+        let b = document.querySelector('.language');
+        console.log(b)
+        a.innerText = `${language}`;
+        b.appendChild(a);
+    }
+    appendChild("Python");
+    appendChild("C++");
+
+
+    const appendChild1 = (language) =>{
+        let a = document.querySelector('.language');
+        let b = document.createElement('li');
+        let c = document.createTextNode(`${language}`);
+        b.appendChild(c);
+        a.appendChild(b);
+    }
+    appendChild1('Golang');
+    appendChild1('Vue');
+</script>
+</html>
