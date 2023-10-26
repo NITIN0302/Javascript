@@ -6,6 +6,7 @@
     background-color: #323946;
     font-family: 'Nunito', sans-serif;
     list-style-type:none;
+    text-decoration-line: none;
 }
 
 .nav
@@ -21,25 +22,48 @@
 
 .nav li
 {
+    justify-content: center;
     margin:10px;
     align-items:center;
 }
 
-a{
+.navbut{
     color:black;
     padding:2px 5px;
     border:1px solid;
     border-radius:5px;
     border-color: aqua;
     background-color:aqua;
-    text-decoration-line: none;
     font-weight: bolder;
     transition: .3s ease;
 }
 
-a:hover
+.navbut:hover
 {
     border-color: aqua;
     background-color:#1f242d;
     color:aqua;
+}
+
+
+.parent
+{
+    justify-content:center;
+    display:flex;
+}
+
+p{
+    text-align: center;
+    color:bisque;
+}
+
+
+.colorbox
+{
+    border:2px solid black;
+    border-radius:5px;
+    width:100px;
+    height:100px;
+    margin:20px;
+    background-color: black;
 }
