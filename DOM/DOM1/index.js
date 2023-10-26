@@ -37,5 +37,5 @@ a.textContent
 
 let b = document.querySelectorAll('h1');
 b.forEach((ele) =>{
-    ele.style.backgroundColor = "red";
+    ele.setAttribute('class','text hidden one two')
 })
