@@ -8,6 +8,11 @@
     list-style-type:none;
     text-decoration-line: none;
 }
+body
+{
+    text-align:center;
+    height:100vh;
+}
 
 .nav
 {
@@ -22,7 +27,6 @@
 
 .nav li
 {
-    justify-content: center;
     margin:10px;
     align-items:center;
 }
@@ -46,6 +50,7 @@
 }
 
 
+
 .parent
 {
     justify-content:center;
@@ -54,16 +59,51 @@
 
 p{
     text-align: center;
-    color:bisque;
+    color:blue
 }
 
 
-.colorbox
+#black
 {
+    display:inline-block;
     border:2px solid black;
     border-radius:5px;
     width:100px;
     height:100px;
     margin:20px;
     background-color: black;
+}
+
+#white
+{
+    display:inline-block;
+    border:2px solid black;
+    border-radius:5px;
+    width:100px;
+    height:100px;
+    margin:20px;
+    background-color: white;
+}
+
+#grey
+{
+    display:inline-block;
+    border:2px solid black;
+    border-radius:5px;
+    width:100px;
+    height:100px;
+    margin:20px;
+    background-color: grey;
+}
+
+
+#yellow
+{
+    display:inline-block;
+    border:2px solid black;
+    border-radius:5px;
+    width:100px;
+    height:100px;
+    margin:20px;
+    background-color: yellow;
 }
