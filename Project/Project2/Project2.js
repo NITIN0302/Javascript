@@ -18,7 +18,7 @@ form.addEventListener('submit',(ele)=>{
         let BMI = Math.round(weight/(height*height/10000));
         let a = document.querySelector('p');
         let b = a.innerHTML;
-        a.innerHTML = `${b} ${BMI}`
+        a.innerHTML = `Your BMI is : ${BMI}`
     }
 
 })
