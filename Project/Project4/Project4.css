@@ -29,6 +29,7 @@ input
 
 #sub
 {
+    margin:10px;
     font-size:15px;
     background-color: aqua;
     color:#323946;
@@ -36,4 +37,13 @@ input
     border-radius:5px;
     height:25px;
     width:120px;
+}
+
+#sub1
+{
+    font-size:15px;
+    background-color: aqua;
+    color:#323946;
+    border-radius:5px;
+    padding:0px 5px;
 }
