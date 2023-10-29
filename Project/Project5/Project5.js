@@ -19,3 +19,4 @@ start.addEventListener('click',(ele)=>{
 stop.addEventListener('click',(ele)=>{
     clearInterval(intervalId);
 });
+
