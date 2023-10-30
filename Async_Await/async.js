@@ -9,5 +9,5 @@ async function getallUsers()
     }
 }
 
-
 getallUsers()
+
