@@ -9,3 +9,8 @@ fetch('https://jsonplaceholder.typicode.com/users')
 .catch((error)=>{
     console.log(error);
 })
+
+
+// https://blog.logrocket.com/fetch-api-node-js/
+
+// link for fetch Api documentation
