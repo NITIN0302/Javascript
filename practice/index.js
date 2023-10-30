@@ -1,8 +1,13 @@
-let a = 10;
+let xhr = new XMLHttpRequest();
+const url = "https://api.github.com/users/NITIN0302"
+xhr.open('GET',url);
+let data;
 
-((a)=>{
-    for(let i=0;i<a;i++)
+xhr.onreadystatechange = () =>{
+    if(xhr.readyState === 4)
     {
-        console.log(i);
+        data = JSON.parse(xhr.response);
+        console.log(data);
     }
-})(a);
+} 
+xhr.send();

@@ -50,3 +50,26 @@ new Promise((resolve,reject)=>{
     console.log("Promise is either resolve or rejected");
 })
 
+
+
+new Promise((resolve,reject)=>{
+    let val = true;
+    if(val)
+    {
+        resolve({name:"Shubham",location:"Mainpur"});
+    }
+    else{
+        reject("Error : Promise is rejected")
+    }
+})
+.then(({name})=>{
+    console.log(name);
+    return name;
+})
+.then((name)=>{
+    console.log(name);
+})
+.catch((error)=>{
+    console.log(error);
+})
+

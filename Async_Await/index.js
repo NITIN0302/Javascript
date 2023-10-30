@@ -4,7 +4,6 @@ let data = document.querySelector('ul');
 let startevent;
 
 
-
 start.addEventListener('click',(ele)=>{
     startevent = setInterval(()=>{
         let child = document.createElement('li');
@@ -17,3 +16,5 @@ start.addEventListener('click',(ele)=>{
 stop.addEventListener('click',(ele)=>{
     clearInterval(startevent);
 })
+
+

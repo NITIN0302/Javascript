@@ -1,4 +1,4 @@
-const { request } = require("express")
+/* const { request } = require("express")
 
 Step 1 :To make an HTTP request to the server with JavaScript, you need an instance of an object with the necessary functionality. This is where XMLHttpRequest comes in.
 
@@ -27,4 +27,6 @@ Steps followed during the API request
 1 (loading) or (server connection established)
 2 (loaded) or (request received)
 3 (interactive) or (processing request)
-4 (complete) or (request finished and response is ready)
+4 (complete) or (request finished and response is ready) 
+
+*/
