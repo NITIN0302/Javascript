@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+        body
+        {
+            font-family: 'Nunito', sans-serif;
+            background-color: #212121;
+            color:white;
+            text-align:center;
+        }
+        img{
+            margin-top:5px;
+            border:1px;
+            border-radius:50%;
+            width: 200px;
+            height: 200px;
+        }
+        .card{
+            border:1px solid aqua;
+            border-radius:5px;
+            display:inline-block;
+        }
+        .count{
+            display:flex;
+            justify-content: center;
+        }
+        h4{
+            margin:0px 10px;
+        }
+    </style>
+    <title>API Request</title>
+</head>
+<body>
+    <div class="card">
+        <img src="" alt="User Image">
+        <h2 class="name"></h2>
+        <div class="count">
+            <h4 class="follower">Followed : </h4>
+            <h4 class="following">Following : </h4>
+        </div>
+    </div>
+</body>
+<script>
+    let img = document.querySelector('img');
+    let name = document.querySelector('.name');
+    let follower = document.querySelector('.follower');
+    let following = document.querySelector('.following');
+
+    const url = "https://api.github.com/users/NITIN0302";
+    let xhr = new XMLHttpRequest();
+    xhr.open('GET',url)
+    xhr.onreadystatechange = function(){
+        if(xhr.readyState === 4)
+        {
+            const data = JSON.parse(this.responseText);
+            img.src = data.avatar_url;
+            name.innerHTML = data.name;
+            follower.innerHTML += data.followers;
+            following.innerHTML += data.following;
+        }
+    }
+    xhr.send();
+</script>
+</html>
