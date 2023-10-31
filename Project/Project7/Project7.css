@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+body
+{
+    color:#ffffff;
+    background-color: #212121;
+}
+
+.cart
+{
+    list-style-type: none;
+}
+
+input
+{
+    margin-right:10px;
+}

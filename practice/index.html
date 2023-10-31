@@ -6,6 +6,30 @@
     <title>Page 1</title>
 </head>
 <body>
-    <script src="index.js"></script>
+<script>
+    var xhr = new XMLHttpRequest(); // Create a new XMLHttpRequest object
+
+    xhr.onreadystatechange = function()
+    { // Define what happens on successful data submission
+        if (this.readyState == 4 && this.status == 200) { // When the request is complete and the response status is 200 OK
+            console.log(this.responseText); // Log the response data
+        }
+    };
+
+    xhr.open("POST", "https://api.example.com/data"); // Initialize a POST request
+
+    // Set the Content-Type header for a JSON payload
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    // Define the data
+    var data = {
+        key1: "value1",
+        key2: "value2"
+    };
+
+    // Send the request along with JSON stringified data
+    xhr.send(JSON.stringify(data));
+
+</script>
 </body>
 </html>
