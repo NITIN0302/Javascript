@@ -7,16 +7,16 @@
     font-family: 'Nunito', sans-serif;
 }
 
-
 body
 {
+    text-align:center;
     color:#ffffff;
     background-color: #212121;
 }
 
 .item1
 {
-    
+    text-align:left;
     margin:20px;
     border-radius:10px;
     width:150px;
@@ -26,6 +26,7 @@ body
 
 .cart1
 {
+    text-align:left;
     margin:20px;
     border-radius:10px;
     width:150px;
@@ -41,7 +42,7 @@ body
 
 .items
 {
-    margin:20px;
+    margin:15px;
     list-style-type:none;
 }
 
@@ -59,8 +60,10 @@ body
 
 #Remove
 {
+    background-color: aqua;
+    color:#212121;
     border:1px solid;
-    margin-left:45vh;
+    margin-left:23vh;
     padding:3px;
     border-radius:5px;
 }
@@ -68,6 +71,9 @@ body
 #AddToCart
 {
     border:1px solid;
+    color:#212121;
+    background-color: aqua;
     padding:3px;
     border-radius:5px;
 }
+
