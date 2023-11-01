@@ -2,6 +2,8 @@
 
 
 *{
+    margin:0px;
+    padding:0px;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -12,8 +14,60 @@ body
     background-color: #212121;
 }
 
+.item1
+{
+    
+    margin:20px;
+    border-radius:10px;
+    width:150px;
+    height:200px;
+    border:1px solid aqua;
+}
+
+.cart1
+{
+    margin:20px;
+    border-radius:10px;
+    width:150px;
+    height:200px;
+    border:1px solid aqua;
+}
+
 .cart
 {
+    margin:20px;
     list-style-type: none;
 }
 
+.items
+{
+    margin:20px;
+    list-style-type:none;
+}
+
+.itemcart
+{
+    justify-content: center;
+    display:flex;
+}
+
+.button
+{
+    justify-content: center;
+    display:flex;
+}
+
+#Remove
+{
+    border:1px solid;
+    margin-left:45vh;
+    padding:3px;
+    border-radius:5px;
+}
+
+#AddToCart
+{
+    border:1px solid;
+    padding:3px;
+    border-radius:5px;
+}

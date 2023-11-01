@@ -7,29 +7,43 @@
     <title>Cart System</title>
 </head>
 <body>
-    <ul class="cart">
-        <li class="object">
-            <input type="checkbox" id="Acc" name="Desktop" value="Desktop">
-            <label for="vehicle1">Desktop</label>
-        </li>
-        <li class="object">
-            <input type="checkbox" id="Acc" name="Television" value="Television">
-            <label for="Television">Television</label>
-        </li>
-        <li class="object">
-            <input type="checkbox" id="Acc" name="Mobile" value="Mobile">
-            <label for="Mobile">Mobile</label>
-        </li>
-        <li class="object">
-            <input type="checkbox" id="Acc" name="Laptop" value="Laptop">
-            <label for="Laptop">Laptop</label>
-        </li>
-        <li class="object">
-            <input type="checkbox" id="Acc" name="Cycle" value="Cycle">
-            <label for="Cycle">Cycle</label>
-        </li>
-    </ul>
-    <input type="button" id="AddToCart" value="Add To Cart">
+    <div class="itemcart">
+        
+        <div class="item1">
+            <ul class="items">
+                <li class="object">
+                    <input type="checkbox" id="Acc" name="Desktop" value="Desktop">
+                    <label for="Desktop">Desktop</label>
+                </li>
+                <li class="object">
+                    <input type="checkbox" id="Acc" name="Television" value="Television">
+                    <label for="Television">Television</label>
+                </li>
+                <li class="object">
+                    <input type="checkbox" id="Acc" name="Mobile" value="Mobile">
+                    <label for="Mobile">Mobile</label>
+                </li>
+                <li class="object">
+                    <input type="checkbox" id="Acc" name="Laptop" value="Laptop">
+                    <label for="Laptop">Laptop</label>
+                </li>
+                <li class="object">
+                    <input type="checkbox" id="Acc" name="Cycle" value="Cycle">
+                    <label for="Cycle">Cycle</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="cart1">
+            <ul class="cart">
+
+            </ul>
+        </div>
+    </div>
+    <div class="button">
+        <input type="button" id="AddToCart" value="Add To Cart">
+        <input type="button" id="Remove" value="Remove">
+    </div>
     <script src="Project7.js"></script>
 </body>
 </html>
