@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 *{
+    color:white;
     padding:0px;
     margin:0px;
     font-family: 'Nunito', sans-serif;
@@ -58,6 +59,7 @@ input
 
 button
 {
+    color:#1f242d;
     margin:10px;
     width:100px;
     height:30px;
