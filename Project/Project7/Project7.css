@@ -2,9 +2,49 @@
 
 
 *{
+    list-style-type: none;
+    text-decoration: none;
+    background-color:black;
+    color:white;
     margin:0px;
     padding:0px;
     font-family: 'Nunito', sans-serif;
+}
+
+.nav
+{
+    display:flex;
+    border:1px solid;
+    background-color:#1f242d;
+    height:40px;
+    font-size:18px;
+    border-color:#1f242d;
+    border-bottom-color: aqua;
+    justify-content: center;
+}
+
+.nav li
+{
+    margin:10px;
+    align-items:center;
+}
+
+.navbut{
+    color:black;
+    padding:2px 5px;
+    border:1px solid;
+    border-radius:5px;
+    border-color: aqua;
+    background-color:aqua;
+    font-weight: bolder;
+    transition: .3s ease;
+}
+
+.navbut:hover
+{
+    border-color: aqua;
+    background-color:#1f242d;
+    color:aqua;
 }
 
 body

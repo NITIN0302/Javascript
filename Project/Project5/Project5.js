@@ -12,7 +12,7 @@ start.addEventListener('click',(ele)=>{
         }
         document.body.style.backgroundColor = color;
         color = '#'
-    }, 1000);
+    }, 300);
 });
 
 

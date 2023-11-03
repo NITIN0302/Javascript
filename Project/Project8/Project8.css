@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 *{
+    margin:0px;
+    padding:0px;
     list-style-type: none;
     text-decoration: none;
-    margin:0;
-    padding:0;
+    background-color: #212121;
+    color:#ffffff;
     font-family: 'Nunito', sans-serif;
-    text-align:center;
 }
 
 .nav
@@ -45,14 +46,49 @@
     color:aqua;
 }
 
-body{
-    background-color: black;
-    color:white;
+.media
+{
+    margin:10px;
+    padding:10px;
 }
 
-button{
-    margin:5px 10px 0px 0px;
-    padding:0px 10px;
+.insta
+{
+    border-radius:5px;
+    padding-left:20px;
+    border:1px solid aqua;
+    width:110px;
 }
 
+.insta:hover
+{
+    
+}
+
+.face
+{
+    border-radius:5px;
+    padding-left:20px;
+    border:1px solid aqua;
+    width:110px;
+}
+
+.face:hover
+{
+    
+}
+
+.net
+{
+    border-radius:5px;
+    padding-left:20px;
+    border:1px solid aqua;
+    width:110px;
+}
+
+
+.net:hover
+{
+    cursor:url(cursor.png),auto;
+}
 
